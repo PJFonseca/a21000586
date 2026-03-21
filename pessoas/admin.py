@@ -29,6 +29,8 @@ class AlunoAdmin (admin.ModelAdmin):
     ordering = ("nome", "idade", "numero")
     search_fields = ("nome", "idade", "numero")
 
+
+
 admin.site.register(Pessoa, PessoaAdmin)
 admin.site.register(Escola, EscolaAdmin)
 admin.site.register(Turma, TurmaAdmin)
